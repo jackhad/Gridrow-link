@@ -21,7 +21,7 @@ array(
                  'success' => 'js:function(data) { 
                   $("#tab1").html(data);')
                   ),
-             ),       //This is for link with ajax call,if you dont want ajax call,then remove options and success attrs
+             ),       //This is for link with ajax call,if you dont want ajax call,then remove options attribute
 
 
 )),
