@@ -1,5 +1,7 @@
 <?php
 $this->widget('zii.widgets.grid.CGridView', array(
+'htmlOptions'=>array('style'=>'cursor: pointer;'),
+'selectionChanged'=>"function(id){window.location='" . Yii::app()->urlManager->createUrl('controller/action', array('id'=>'')) . "' + $.fn.yiiGridView.getSelection(id);}",
 'dataProvider' =>$data,
 
 
